@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+  .sidebar-overlay {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1050;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: width 0.3s ease;
+    overflow-x: hidden;
+  }
+
+  .sidebar-hidden {
+    width: 0 !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+
+  .sidebar-backdrop {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1040;
+  }
+
+  .main-content {
+    margin-left: 0 !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .main-content {
+    margin-left: 280px;
+    transition: margin-left 0.3s;
+  }
+  .main-content.collapsed {
+    margin-left: 4.5rem;
+  }
+}
+
+.light-placeholder::placeholder {
+  color: #6c757d;
+}
+
+.dark-placeholder::placeholder {
+  color: #adb5bd;
+}
+
