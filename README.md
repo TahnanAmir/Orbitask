@@ -227,12 +227,6 @@ Open **http://localhost:5173** in your browser.
 
 ---
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
 ## Author
 
 If you found this useful, consider giving the repo a ⭐ on GitHub!
